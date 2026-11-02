@@ -1,0 +1,45 @@
+# 账单数据、数据库、导出结果都不进版本库
+data/
+
+# 用户上传的自定义模板（templates.json 记录配置，模板文件本身是私有的）
+templates/*.xlsx
+templates/*.xlsm
+templates/templates.json
+
+# PyInstaller 产物
+build/
+dist/
+
+__pycache__/
+.pytest_cache/
+*.py[cod]
+.venv/
+venv/
+.DS_Store
+Thumbs.db
+runtime/**/*.zip
+runtime/**/*.exe
+runtime/**/*.dll
+tmp/
+
+# 等待人工审核后删除的旧文件，里面有真实账单。
+_待清理/
+
+# Portable backups contain private account identifiers and user rules.
+*.backup.json
+backups/
+*.db
+*.db-wal
+*.db-shm
+*.sqlite*
+*.log
+Sample/
+samples-private/
+artifacts/
+release/
+*.gguf
+.env
+.env.*
+!.env.example
+runtime/*.tar.gz
+runtime/llama.cpp/metal/

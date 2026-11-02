@@ -1,0 +1,6 @@
+<html><head><meta charset="utf-8"></head><body><p>示例银行 账号：6222000011112345</p>
+<table><tr><th>日期</th><th>摘要</th><th>支出</th><th>收入</th><th>余额</th></tr>
+<tr><td>2026-03-01</td><td>MAPLEMART 1234 SYDNEY NS AUS</td><td>50.00</td><td></td><td>1,950.00</td></tr>
+<tr><td>2026-03-02</td><td>工资 示例公司</td><td></td><td>8,000.00</td><td>9,950.00</td></tr>
+<tr><td>2026-03-05</td><td>转账给 示例收款人</td><td>1,200.50</td><td></td><td>8,749.50</td></tr>
+<tr><td>2026-03-09</td><td>手续费</td><td>0.50</td><td></td><td>8,749.00</td></tr></table></body></html>

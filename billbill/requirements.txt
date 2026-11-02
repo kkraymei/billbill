@@ -1,0 +1,13 @@
+# 核心：Excel 读写
+openpyxl>=3.1
+
+# 账单格式
+pdfplumber>=0.11   # PDF
+pypdfium2>=4.30    # 扫描 PDF 逐页渲染给 OCR
+xlrd>=2.0          # 老式 .xls
+olefile>=0.46      # 老式 .doc
+chardet>=5.0       # 中文编码兜底探测
+Pillow>=10.0       # 图片
+
+# 窗口
+PyQt6>=6.7,<7
